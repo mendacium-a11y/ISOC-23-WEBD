@@ -14,7 +14,7 @@
 <body>
   <!-- navbar -->
 
-  <header class="header px-3 py-2" style="width: 100vw;">
+  <header class="header px-3 py-2 d-flex flex-wrap" style="width: 100vw;">
     <h1 class="logo1"><a class="text-decoration-none fs-4 fw-bold" href="#" style="color: #86a0bb;"><span
           style="color:#7b00d3; font-size: 25pt;" class="fs-1">ISOC</span>eum</a></h1>
     <ul class="main-nav">
@@ -49,17 +49,18 @@
   <!-- ongoing exhibitions -->
   <section>
     <div class="ongoing-exhib">
-      <p> ONGOING EXHIBITIONS</p>
+      <p class="fs-2"> ONGOING EXHIBITIONS</p>
     </div>
     <div class="ongoing-exhib-grid">
       <div class="ongoing-exhib-grid-item oe-flex">
-        <a href="page.html" target="_blank">
+        <a style="color: black;" href="page.html" class="text-decoration-none" target="_blank">
           <img class="oe-flex-item" src="./Ongoing Exhib/Artifact-1.jpg">
           <h3 class="oe-flex-item">Timeless Treasures</h3>
           <p class="oe-flex-item">
             Day | Date | Time | Venue
           </p>
       </div>
+
       <div class="ongoing-exhib-grid-item oe-flex">
         <!-- <a href="page.html" target="_blank"> -->
         <img class="oe-flex-item" src="./Ongoing Exhib/Artifact-2.jpg">
@@ -70,7 +71,7 @@
       </div>
 
       <div class="ongoing-exhib-grid-item oe-flex">
-        <a href="page.html" target="_blank">
+        <a style="color: black;" href="page.html" class="text-decoration-none" target="_blank">
           <img class="oe-flex-item" src="./Ongoing Exhib/Artifact-3.jpg">
           <h3 class="oe-flex-item">Relics Unveiled</h3>
           <p class="oe-flex-item">
@@ -85,21 +86,23 @@
     <div class="our-gallery">
       <p style="color: #764c03; padding-top: 40px;">OUR EXHIBITION GALLERY</p>
     </div>
-    <div class="our-gallery our-gallery-container">
-      <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-1.jpg"></a>
-      <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-2.jpg"></a>
-      <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-3.jpg"></a>
-      <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-4.jpg"></a>
-      <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-5.jpg"></a>
-      <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-1.jpg"></a>
-      <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-2.jpg"></a>
-      <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-3.jpg"></a>
-      <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-4.jpg"></a>
-      <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-5.jpg"></a>
-      <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-1.jpg"></a>
-      <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-2.jpg"></a>
-      <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-3.jpg"></a>
-      <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-4.jpg"></a>
+    <div style="background-color:#f8edcd;">
+      <div class="our-gallery our-gallery-container mx-5">
+        <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-1.jpg"></a>
+        <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-2.jpg"></a>
+        <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-3.jpg"></a>
+        <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-4.jpg"></a>
+        <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-5.jpg"></a>
+        <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-1.jpg"></a>
+        <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-2.jpg"></a>
+        <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-3.jpg"></a>
+        <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-4.jpg"></a>
+        <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-5.jpg"></a>
+        <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-1.jpg"></a>
+        <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-2.jpg"></a>
+        <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-3.jpg"></a>
+        <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-4.jpg"></a>
+      </div>
     </div>
     <div class="our-gallery our-gallery-btn" style="margin-top: 0;">
       <button id="explore-gallery">Explore Gallery</button>
@@ -118,11 +121,11 @@
       <div class="artisan-hub-info-flexbox">
         <div class="artisan-info">
           <img src="./Artisan/Info-1.png">
-          <a href="./artandstories.html">
+          <a class="text-decoration-none" href="./artandstories.html">
             <p>Learn about our local artisans</p>
         </div>
         <div class="artisan-info-details">
-          <p>
+          <p class="text-black">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             Sed at facilisis odio. Vestibulum tincidunt, nulla
             erat viverra tellus.
@@ -137,37 +140,74 @@
     <div class="upcoming-exhib">
       UPCOMING EXHIBITIONS
     </div>
-    <div class="row">
-      <a href="page.html" target="_blank">
-        <div class="column">
-          <div class="card">
-            <img src="./Upcoming/Upcoming-1.jpg" style="width:100%">
-            <h2 class="upcoming-exhib-about">Regal Reverie</h2>
-            <p class="small-intro"> Small Intro</p>
+    <!-- <div class="row">
+
+      <div class="col-sm-4">
+        <div class="card">
+          <div style="min-height: 50%;">
+            <img src="./Upcoming/Upcoming-1.jpg" style="width:100%; min-height: 100%;">
+          </div>
+
+          <div class="py-4">
+            <h2>Regal Reverie</h2>
+          </div>
+
+          <p class="small-intro"> Small Intro</p>
+          <p>Day | Date | Time | Venue</p>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="card">
+          <img src="./Upcoming/Upcoming-2.jpg" style="width:100%">
+          <h2 class="upcoming-exhib-about">Gilded Treasures</h2>
+          <p class="small-intro"> Small intro</p>
+          <p>Day | Date | Time | Venue</p>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="card">
+          <img src="./Upcoming/Upcoming-3.jpg" style="width:100%">
+          <h2 class="upcoming-exhib-about">Timeless Splendour</h2>
+          <p class="small-intro"> Small intro</p>
+          <p>Day | Date | Time | Venue</p>
+        </div>
+      </div>
+    </div> -->
+
+    <div class="row d-flex justify-content-evenly">
+      <div class="col-sm-12 m-3 mx-5 col-md-3">
+        <div class="card" style="height: ;">
+          <img src="./Upcoming/Upcoming-1.jpg" style="width:100%; min-height: 100%;">
+          <div class="card-body">
+            <h5 class="card-title">Regal Reverie</h5>
+            <p class="card-text">Small Intro</p>
             <p>Day | Date | Time | Venue</p>
           </div>
         </div>
-
-
-        <a href="page.html" target="_blank">
-          <div class="column">
-            <div class="card">
-              <img src="./Upcoming/Upcoming-2.jpg" style="width:100%">
-              <h2 class="upcoming-exhib-about">Gilded Treasures</h2>
-              <p class="small-intro"> Small intro</p>
-              <p>Day | Date | Time | Venue</p>
-            </div>
+      </div>
+      <div class="col-sm-12 m-3 mx-5 col-md-3">
+        <div class="card" style="height: ;">
+          <img src="./Upcoming/Upcoming-2.jpg" style="width:100%; min-height: 100%;">
+          <div class="card-body">
+            <h5 class="card-title">Regal Reverie</h5>
+            <p class="card-text">Small Intro</p>
+            <p>Day | Date | Time | Venue</p>
           </div>
-
-          <a href="page.html" target="_blank">
-            <div class="column">
-              <div class="card">
-                <img src="./Upcoming/Upcoming-3.jpg" style="width:100%">
-                <h2 class="upcoming-exhib-about">Timeless Splendour</h2>
-                <p class="small-intro"> Small intro</p>
-                <p>Day | Date | Time | Venue</p>
-              </div>
-            </div>
+        </div>
+      </div>
+      <div class="col-sm-12 m-3 mx-5 col-md-3">
+        <div class="card" style="height: ;">
+          <img src="./Upcoming/Upcoming-3.jpg" style="width:100%; min-height: 100%;">
+          <div class="card-body">
+            <h5 class="card-title">Regal Reverie</h5>
+            <p class="card-text">Small Intro</p>
+            <p>Day | Date | Time | Venue</p>
+          </div>
+        </div>
+      </div>
+    </div>
 
   </section>
 

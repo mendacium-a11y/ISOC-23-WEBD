@@ -221,7 +221,9 @@ p.oe-flex-item {
     padding-top: 30px;
     padding-bottom: 5px;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    overflow-y: scroll;
+    
     justify-content: center;
 }
 
@@ -236,6 +238,12 @@ p.oe-flex-item {
     justify-content: right;
 }
 
+
+#explore-gallery:hover{
+    background-color: black;
+    color: white;
+}
+
 #explore-gallery {
     margin-top: 18px;
     margin-right: 4%;
@@ -248,7 +256,9 @@ p.oe-flex-item {
     font-size: 16px;
     border-radius: 8px;
     margin-bottom: 20px;
+    transition: all 0.2s linear;
 }
+
 
 
 /* artisan hub */
@@ -327,11 +337,11 @@ p.oe-flex-item {
     padding-top: 30px;
 }
 
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
+/* .row:after { */
+    /* content: ""; */
+    /* display: table; */
+    /* clear: both; */
+/* } */
 
 
 
